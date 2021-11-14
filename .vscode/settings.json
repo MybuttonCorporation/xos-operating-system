@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        ".bsh": "ini",
+        "stdlib.h": "c",
+        "dos.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
+}
