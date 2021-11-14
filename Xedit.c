@@ -90,7 +90,7 @@ Blue();
     if(strcmp(checkInput, checkh) == 0){
 Red();
 system("chcp 65001 >> log.xos");
-system("bcdboot evoked at \%time\%-\%date%, boot mode: uefi-x86 >> log.xos");
+system("echo bcdboot evoked at \%time\%-\%date%, boot mode: uefi-x86 >> log.xos");
 system("cls");
 bootMsg("i0BootHandler", "registering 'XOS' with creditenials: 'ADMINISTRATOR'...");
 Red();
